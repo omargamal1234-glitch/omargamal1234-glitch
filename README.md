@@ -1,16 +1,37 @@
-### Hi there 👋
+# MERN Stack Project: Build and Deploy a Real Time Chat App | JWT, Socket.io
 
-<!--
-**omargamal1234-glitch/omargamal1234-glitch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Demo App](https://i.ibb.co/gFSMzKN/1.png)
 
+[Video Tutorial on Youtube](https://youtu.be/HwCqsOis894)
 
+Some Features:
 
-###- 🔭 I’m currently working on learning web programming
-###- 🌱 I’m currently learning JAVASCRIPT
-###- 👯 I’m looking to collaborate on web projects
-###- 🤔 I’m looking for help with nothing
-###- 💬 Ask me about anything you like to know about me
-###- 📫 How to reach me: by my email
-### 😄 Pronouns: He/Him
-###- ⚡ Fun fact: i am 14 and started to learn to code
--->
+-   🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
+-   🎃 Authentication && Authorization with JWT
+-   👾 Real-time messaging with Socket.io
+-   🚀 Online user status (Socket.io and React Context)
+-   👌 Global state management with Zustand
+-   🐞 Error handling both on the server and on the client
+-   ⭐ At the end Deployment like a pro for FREE!
+-   ⏳ And much more!
+
+### Setup .env file
+
+```js
+PORT=...
+MONGO_DB_URI=...
+JWT_SECRET=...
+NODE_ENV=...
+```
+
+### Build the app
+
+```shell
+npm run build
+```
+
+### Start the app
+
+```shell
+npm start
+```
